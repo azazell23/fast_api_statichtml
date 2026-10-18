@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit</title>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <a href="index.html">Return</a>
+    <h2 id="id"></h2>
+    <form id="form">
+      <label for="title">Title</label>
+      <input id="title" name="title" type="text" required />
+
+      <label for="author">Author</label>
+      <input id="author" name="author" type="text" required />
+
+      <label for="synopsis">Synopsis</label>
+      <textarea id="synopsis" name="synopsis" required></textarea>
+
+      <label for="price">Price</label>
+      <input id="price" name="price" step="0.001" type="number" required />
+
+      <label for="rating">Rating</label>
+      <input id="rating" name="rating" step="0.1" type="number" required />
+
+      <label for="cover-input">Cover</label>
+      <input
+        id="cover-input"
+        name="cover"
+        type="file"
+        accept="image/jpeg, image/png"
+      />
+
+      <img id="preview" />
+
+      <button type="submit">Edit Book</button>
+    </form>
+
+    <script src="../js/edit.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  gap: 10px;
+  width: 50vw;
+}
+
+#booklist {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.book-cover {
+  width: 350px;
+}
+
+.book-card {
+  border: 1px black solid;
+  padding: 10px;
+}
+
+#preview {
+  width: 150px;
+}
